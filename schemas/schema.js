@@ -5,8 +5,9 @@ import blockContent from './blockContent'
 import category from './category'
 import post from './post'
 import author from './author'
+import employee from './employee'
 
 export default createSchema({
   name: 'default',
-  types: schemaTypes.concat([blockContent, post, author, category])
+  types: schemaTypes.concat([blockContent, post, author, category, employee])
 })
